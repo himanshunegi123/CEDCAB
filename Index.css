@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+.navbar-nav li {
+  padding: 20px;
+  font-size: 0.7em;
+  color: white;
+}
+.dropdown-menu {
+  background-color: #E4B820;
+  color: black;
+}
+nav a {
+  color: #E4B820;
+  font-size: 1rem;
+}
+nav a:hover {
+  color: gray;
+}
+
+.form-heading {
+  color: #fff;
+  font-size: 23px;
+}
+.panel h2 {
+  color: #444444;
+  margin: 0 0 8px 0;
+}
+.panel p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom: 10px;
+}
+.login-form {
+  text-align: center;
+}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back {
+  text-align: left;
+  margin-top: 10px;
+}
+.back a {
+  color: #444444;
+  font-size: 13px;
+  text-decoration: none;
+}
+/* footer */
+/* USER INDEX */
+
+.container0 {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+  padding: 2%;
+  width: 22%;
+  margin: 1.5%;
+  float: left;
+  height: 30vh;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: black;
+  color: #E4B820;
+  border-radius: 15px;
+}
+.container1:hover,
+.container2:hover,
+.container3:hover,
+.container4:hover {
+  box-shadow: 5px 5px 5px 5px #FF8400;
+  transition: 0.6s;
+}
+.button {
+  padding: 5px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: blue;
+  box-shadow: 15px 15px 15px 15px #FF8400;
+  
+}
+.button:hover {
+  background-color: rgb(61, 56, 56);
+  cursor: pointer;
+  color: black;
+  
+  
+  
+}
+.button:focus {
+  outline: none;
+}
+.BookRide {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  padding-left: 44%;
+  
+}
+.BookRide button {
+  background-color: rgb(255, 132, 0);
+  border: none;
+}
+.BookRide button:hover {
+  background-color: white;
+  color: #444444;
+  border: 1px solid rgb(255, 132, 0);
+  transition: 0.8s;
+}
+.conatainer0 button {
+  background-color: rgb(255, 132, 0);
+  border: none;
+}
+.conatainer0  button:hover {
+  background-color: white;
+  color: #444444;
+  border: 1px solid rgb(255, 132, 0);
+  transition: 0.8s;
+}
+
+table {
+  width:100%;
+  text-align: center;
+}
+th {
+  padding:1.5%;
+  border: 2px solid rgb(255, 132, 0);
+  width:12%;
+}
+td {
+  padding: 5px;
+  border: 1px solid rgb(255, 132, 0);
+  width:10%;
+}
+td {
+  height: 8vh;
+}
+#cancel {
+  background-color: red;
+  border: none;
+}
+#viewdetails {
+  background-color: rgb(6, 243, 6);
+  color: black;
+  border: none;
+
+}
+#cancel:hover, #viewdetails:hover {
+  opacity: 0.5;
+}
+
+
+.modal-body p{
+  color: #FF8400;
+}
+
+.modal-body h3, h4{
+  color: #ff0000;
+}
+.modal-body {
+  text-align: center;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+/* password change */
+
+.pass_show{position: relative} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: #f36c01; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+
+.pass_show .ptxt:hover{color: #333333;}
+
+#FormMain {
+  margin-top: 2%;
+  text-align: center;
+  height: auto;
+  width:40%;
+  margin-left: 30%;
+}
